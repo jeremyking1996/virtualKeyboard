@@ -1,0 +1,9 @@
+.carousel-text {
+    text-align: center;
+    text-justify: auto;
+}
+
+.carouselImg {
+    height: 800px;
+    width: 100%;
+}
