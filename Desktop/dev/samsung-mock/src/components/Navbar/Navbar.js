@@ -1,13 +1,14 @@
 import React, { Component } from 'react'; 
-import { Navbar, Nav, NavDropdown, Form, FormControl, Button } from 'react-bootstrap/';
+import { Navbar, Nav, NavDropdown, Form } from 'react-bootstrap/';
 import samsungLogo from "../../images/samsungLogo.png";
+import "./Navbar.css"
 
 class MainNav extends Component {
     render() {
         return (
             <div>
                 <Navbar bg="light" expand="lg">
-  <Navbar.Brand href="#home"><img src= {samsungLogo} alt="Samsung-logo" style={{width: "200px", height: "100px"}}></img></Navbar.Brand>
+  <Navbar.Brand href="#home"><img src= {samsungLogo} alt="Samsung-logo" style={{width: "100px", height: "100px"}}></img></Navbar.Brand>
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="mr-auto">
@@ -64,7 +65,7 @@ class MainNav extends Component {
       <Nav.Link href="#home">Gift Ideas</Nav.Link>
     </Nav>
     <Form inline>
-    <NavDropdown title="Explore" id="basic-nav-dropdown explore">
+    <NavDropdown title="Explore" id="basic-nav-dropdown" className="end-of-nav">
         <NavDropdown.Item href="#action/3.1">Explore All</NavDropdown.Item>
         <NavDropdown.Item href="#action/3.2">Stories</NavDropdown.Item>
         <NavDropdown.Item href="#action/3.3">How-To</NavDropdown.Item>
@@ -72,7 +73,7 @@ class MainNav extends Component {
         <NavDropdown.Item href="#action/3.5">Experiences</NavDropdown.Item>
         <NavDropdown.Item href="#action/3.6">Community</NavDropdown.Item>
       </NavDropdown>
-      <NavDropdown title="Support" id="basic-nav-dropdown">
+      <NavDropdown title="Support" id="basic-nav-dropdown" className="end-of-nav">
         <NavDropdown.Item href="#action/3.1">Product Help</NavDropdown.Item>
         <NavDropdown.Item href="#action/3.2">Manuals & Software</NavDropdown.Item>
         <NavDropdown.Item href="#action/3.3">Request a service</NavDropdown.Item>
@@ -83,9 +84,9 @@ class MainNav extends Component {
         <NavDropdown.Item href="#action/3.7">Support Care+ for Mobile</NavDropdown.Item>
         <NavDropdown.Item href="#action/3.7">Support Care+ for TV & Home Appliances</NavDropdown.Item>
       </NavDropdown>
-      <Nav.Link href="#home">Business</Nav.Link>
-      <FormControl type="dropdown"/>
-      <Button variant="outline-success">Search</Button>
+      <Nav.Link href="#home" className="end-of-nav">Business</Nav.Link>
+      
+      
     </Form>
   </Navbar.Collapse>
 </Navbar>

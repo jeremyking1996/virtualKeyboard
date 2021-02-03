@@ -5,6 +5,13 @@ import MainCarousel from './components/Carousel/Carousel'
 import ProductButtonGroup from './components/ButtonGroup/ButtonGroup'
 import ProductGrid from './components/ProductGrid/ProductGrid'
 import ProductCarousel from './components/SecondCarousel/ProductCarousel'
+import TVAudio from './components/TVAudio/TVAudio'
+import JDPower from './components/JDAwards/JDAwards'
+import Explore from './components/DoWhatYouCant/Explore'
+import SearchBar from './components/SearchBar/SearchBar'
+import DropDown from './components/DropDown/DropDown'
+import Table from './components/Table/Table'
+
 
 function App() {
   return (
@@ -15,7 +22,13 @@ function App() {
         <ProductButtonGroup />
         <ProductGrid />
         <ProductCarousel />
-    
+        <TVAudio />
+        <JDPower />
+        <h1 style={{margin: "5%"}}>Explore #DoWhatYouCant</h1>
+        <Explore />
+        <SearchBar />
+        <DropDown />
+        <Table />
     </div>
   );
 }

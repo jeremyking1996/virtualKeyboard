@@ -1,0 +1,47 @@
+.JDPower {
+    background-color:#383838;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.homeAppliance {
+    color: white;
+}
+
+.homeButt {
+    margin: 5%;
+    background-color: #383838;
+    border: none;
+    color: white;
+    display: flex-inline;
+    font-weight: bold;
+}
+
+.homePic {
+    width: 50%;
+    height: 100%;
+}
+
+.appCap {
+    color: white;
+    font-weight: bold;
+}
+
+.appWords {
+    color: white;
+    font-weight: bold;
+}
+
+.learn {
+    background-color: white;
+    color: black;
+    border-radius: 25%;
+    font-weight: bold;
+}
+
+.shop {
+    background-color: black;
+    color: white;
+    border-radius: 25%;
+    font-weight: bold;
+}

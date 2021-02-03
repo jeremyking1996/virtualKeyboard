@@ -1,0 +1,28 @@
+.TVAudio {
+    background-color: linen;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.slideImg {
+    width: 50%;
+    height: 100%;
+}
+
+.shopnow {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 25%;
+}
+
+.tvButton {
+    margin: 2.5%;
+    color: black;
+    background-color: linen;
+    border: none;
+}
+
+.TVTitle {
+    margin-top: 2%;
+}

@@ -1,0 +1,8 @@
+.buttons {
+    background-color: white;
+     margin: 5%;
+     color: black;
+     border: white;
+    width: 250px;
+    hover: underline;
+}

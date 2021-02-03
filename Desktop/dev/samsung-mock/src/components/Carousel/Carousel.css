@@ -1,9 +1,11 @@
 .carousel-text {
     text-align: center;
     text-justify: auto;
+    color: black;
+    float: center;
 }
 
-.carouselImg {
-    height: 800px;
+.carousel-image {
+    height:50rem;
     width: 100%;
 }

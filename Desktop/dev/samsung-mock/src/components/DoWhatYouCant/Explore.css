@@ -1,0 +1,21 @@
+.combo {
+    display:inline-table
+}
+
+.explore:hover {
+    border-top: 5px, solid, black;
+    border-bottom: 2.5px, solid, black;
+}
+
+.explore{
+    float: right;
+    display: flexbox;
+    justify-content: center;
+    font-size:x-large;
+}
+
+.funPic {
+    height: 400px;
+    width: 50%;
+    float: left;
+}
