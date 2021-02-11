@@ -5,11 +5,11 @@ import './Table.css'
 class Table extends Component {
     render() {
         return (
-            <div className="column">
-                <p className="column"><strong>Privacy. It’s always personal.</strong> Easily control what you share or don’t share with us. <strong>Learn More</strong></p>
+            <div className="haha">
+                <p className="haha"><strong>Privacy. It’s always personal.</strong> Easily control what you share or don’t share with us. <strong>Learn More</strong></p>
                 <container>
                 <Row>
-                    <Col className="column">
+                    <Col className="haha">
                     <strong>SHOP</strong>
                     <ul>
                         <li>Phones</li>
@@ -27,7 +27,7 @@ class Table extends Component {
                         <li>Apps & Services</li>
                         <li>Shop Refurbished</li>
                         </ul></Col>
-                    <Col className="column"><ul>
+                    <Col className="haha"><ul>
                     <strong>Support</strong>
                     <li>Contact Us</li>
                     <li>Product Support</li>
@@ -38,7 +38,7 @@ class Table extends Component {
                     <li>Accessibility</li>
                     <li>Note7 Recall</li></ul>
                     </Col>
-                    <Col className="column">
+                    <Col className="haha">
                     <ul>
                     <strong>Offers</strong>
                     <li>Offers</li>
@@ -50,7 +50,7 @@ class Table extends Component {
                     <li>First Responder Discounts</li>
                     </ul>
                     </Col>
-                    <Col class="column"><strong>Company</strong>
+                    <Col class="haha"><strong>Company</strong>
                     <ul>
                     <li>About Us</li>
                     <li>Explore</li>

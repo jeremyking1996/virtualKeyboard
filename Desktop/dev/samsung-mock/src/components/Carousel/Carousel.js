@@ -22,7 +22,7 @@ class MainCarousel extends Component {
                 />
                 <Carousel.Caption>
                     <h3>Meet the new, epic Galaxy S21 5G</h3>
-                    <p className="carousel-text">Get <strong>$100 instant credit,</strong> a free Galaxy SmartTag, and up to 700$ instant credit.<br/>Now 499.99 for a limited time.</p>
+                    <p>Get <strong>$100 instant credit,</strong> a free Galaxy SmartTag, and up to 700$ instant credit.<br/>Now 499.99 for a limited time.</p>
                 </Carousel.Caption>
                 </Carousel.Item>
                 {/* Second Carousel Item */}
@@ -34,7 +34,7 @@ class MainCarousel extends Component {
                 />
 
                 <Carousel.Caption>
-                    <h3>Meet the new, epic Galaxy S21 5G</h3>
+                    <h3 className="carousel-text">Meet the new, epic Galaxy S21 5G</h3>
                     <p className="carousel-text">Get <strong>$75 instant credit,</strong> a free Galaxy SmartTag, and up to 700$ instant credit.<br/>Now 499.99 for a limited time.</p>
                 </Carousel.Caption>
                 </Carousel.Item>
@@ -46,7 +46,7 @@ class MainCarousel extends Component {
                     alt="Third slide"
                 />
                  <Carousel.Caption>
-                    <h3>Introducing Galaxy Buds Pro </h3>
+                    <h3 className="carousel-text">Introducing Galaxy Buds Pro </h3>
                     <p className="carousel-text">Elevate everyday moments with studio quality sound and Active Noise Cancellation </p>
                 </Carousel.Caption>
                 </Carousel.Item>
@@ -61,7 +61,7 @@ class MainCarousel extends Component {
 
                 <Carousel.Caption>
                     <h3>Go Big for the Big Game</h3>
-                    <p className="carousel-text">Save up to $3000 on select TVs and up to $400 for the big game. <br/> For a limited time only.</p>
+                    <p>Save up to $3000 on select TVs and up to $400 for the big game. <br/> For a limited time only.</p>
                 </Carousel.Caption>
                 </Carousel.Item>
                 {/* Fifth Carousel Item */}
